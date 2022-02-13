@@ -5,8 +5,15 @@
 @import "/CSS/sidebar.css";
 @import "/CSS/cards.css";
 
-@import "/Pages/MyCarts/mycart.css";
 @import "/Pages/Login/login.css";
+
+.container-60{
+    width: 60%;
+    min-height: 100vh;
+    height: max-content;
+    margin: auto; 
+    text-align: center;
+}
 
 .container-80{
     width: 80%;
@@ -118,4 +125,12 @@
 .flex-column{
     display: flex;
     flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.border-bottom{
+    border-top: 1px solid var(--lynx-grey);
 }
