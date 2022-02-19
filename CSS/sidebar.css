@@ -1,0 +1,45 @@
+a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.side-bar{
+    font-family: 'Roboto', sans-serif;
+    flex: 0 0 15rem;
+    margin-right: 1rem;
+    padding: 2rem;
+}
+
+.slider-cont{
+    padding-top: 2rem;
+}
+
+.side-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-inp{
+    width: 100%;
+}
+
+.slider-label{
+    padding-bottom: 0.5rem;
+    display: block;
+    gap: 38%;
+}
+
+.input-bullet{
+    margin-right: 1rem;
+    box-sizing: border-box;
+    appearance: none;
+    background: var(--white-color);
+    outline: 0.1rem solid var(--black-color);
+    border: 0.2rem solid var(--white-color);
+    width: 1rem;
+    height: 1rem;
+}
+
+.input-bullet:checked {
+    background: var(--action-color);
+}
